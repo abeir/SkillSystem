@@ -1,0 +1,71 @@
+{
+    "$id": 0,
+    "$type": "0|System.Collections.Generic.List`1[[SkillSystem.Data.SkillBase, Assembly-CSharp]], mscorlib",
+    "$rlength": 2,
+    "$rcontent": [
+        {
+            "$id": 1,
+            "$type": "1|SkillSystem.Data.SkillBase, Assembly-CSharp",
+            "id": 1001,
+            "name": "Skill Test",
+            "icon": null,
+            "description": "This is a Test Skill",
+            "cooldown": 3,
+            "cost": 10,
+            "duration": 0,
+            "detectTags": {
+                "$id": 2,
+                "$type": "2|System.String[], mscorlib",
+                "$rlength": 1,
+                "$rcontent": [
+                    "Enemy"
+                ]
+            },
+            "detectDistance": 2,
+            "detectAngle": 360,
+            "detectArea": 0,
+            "detectDuration": 5,
+            "impacts": {
+                "$id": 3,
+                "$type": "3|SkillSystem.ImpactType[], Assembly-CSharp",
+                "$rlength": 1,
+                "$rcontent": [
+                    0
+                ]
+            },
+            "prefab": "Cube"
+        },
+        {
+            "$id": 4,
+            "$type": 1,
+            "id": 1002,
+            "name": "Skill 2",
+            "icon": null,
+            "description": null,
+            "cooldown": 1,
+            "cost": 10,
+            "duration": 0,
+            "detectTags": {
+                "$id": 5,
+                "$type": 2,
+                "$rlength": 1,
+                "$rcontent": [
+                    "Enemy"
+                ]
+            },
+            "detectDistance": 0.1,
+            "detectAngle": 0,
+            "detectArea": 1,
+            "detectDuration": 5,
+            "impacts": {
+                "$id": 6,
+                "$type": 3,
+                "$rlength": 1,
+                "$rcontent": [
+                    0
+                ]
+            },
+            "prefab": "Cube"
+        }
+    ]
+}
